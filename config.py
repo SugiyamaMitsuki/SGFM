@@ -22,12 +22,9 @@ class Config(object):
         self.soilData_path = "./InputData/SoilData.xlsx"
         
         # 観測点（計算対象緯度経度）
-        self.lon_station = 139.67052772#←笹塚
-        self.lat_station =  35.67425031
-        self.depth_station = 0.0     #km
-        # self.lon_station = 139.741337#←品川
-        # self.lat_station = 35.626151
-        # self.depth_station = 0.0     #km
+        self.lon_station = 139.7
+        self.lat_station = 35.6
+       　self.depth_station = 0.0     #km
         
         # 計算条件
         self.N  = 2**14         # 種地震の時刻歴におけるデータ数(2^N)
