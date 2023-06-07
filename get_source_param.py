@@ -458,16 +458,3 @@ if __name__ == "__main__":
     param = SourceParamReader()
     param.read_xlsx("./InputData/Source_Parameters.xlsx")
     param.calc_element_coordinates_Information()
-
-
-
-
-    # param.calc_element_epi_distance(139.76718460478475,35.681304321743575,10)
-    
-    # lon_station = 139.67052772#←笹塚
-    # lat_station =  35.67425031
-    
-    # print("地図描写")
-    # param.draw_FaultModelMap(output="./fig/faultMAP.png",lon_station=lon_station,lat_station=lat_station)
-    
-    
